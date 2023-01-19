@@ -46,7 +46,7 @@ class RealTimePlotCallback(keras.callbacks.Callback): # inherits from keras.call
 
         plt.show()
 
-        # printen concrete loss & accuracy stats
+        # print concrete loss & accuracy stats
         print(f"training loss: {self._loss[-1]}")
         print(f"validation loss: {self._val_loss[-1]}")
         print(f"training accuracy: {self._acc[-1]}")
